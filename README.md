@@ -31,6 +31,7 @@ var output = postcss()
   .css;
 ```
 
+`input.css` example:
 ```css
 .row {
   pure-grid-group: row nowrap;
