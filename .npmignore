@@ -1,6 +1,6 @@
 .gitignore
 node_modules/
 npm-debug.log
-/index.js
+index.js
 test.js
 gulpfile.babel.js

@@ -15,8 +15,8 @@ gulp.task('build:lib', ['clean'], () => {
 gulp.task('build:docs', ['clean'], () => {
     let ignore = require('fs').readFileSync('.npmignore').toString()
         .trim().split(/\n+/)
-        .concat(['.npmignore', 'index.js', 'package.json',
-                 'lib/*', 'test/*', 'node_modules/**/*'])
+        .concat(['.npmignore', 'postcss-pure-grid.js', 'package.json',
+       		, 'node_modules/**/*'])
         .map( i => '!' + i );
     return gulp.src(['**/*'].concat(ignore))
         .pipe(gulp.dest('build'));
