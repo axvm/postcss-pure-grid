@@ -1,4 +1,4 @@
-# PostCSS-pure-grid
+# PostCSS-pure-grid [![Build Status](https://travis-ci.org/axvm/postcss-pure-grid.svg?branch=master)](https://travis-ci.org/axvm/postcss-pure-grid)
 
 <img align="right" width="95" height="95"
      title="Philosopher’s stone, logo of PostCSS"
