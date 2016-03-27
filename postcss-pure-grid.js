@@ -1,8 +1,6 @@
 import postcss from 'postcss';
 
 export default postcss.plugin('postcss-pure-grid', (opts) => {
-  //TODO: need or not? remove.
-  opts = Object.assign({},{},opts);
 
   var calculateWidth = (column, maxcolumns) => {
     let width = ((100 / maxcolumns) * column);
